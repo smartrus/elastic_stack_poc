@@ -5,7 +5,7 @@ I got these steps from Linuxacademy.com with my minor modifications
 ```
 mkdir /var/log/apache2
 cd /var/log/apache2
-wget https://github.com/smartrus/content-elastic-log-samples/blob/master/access.log
+wget https://github.com/smartrus/content-elastic-log-samples/raw/master/access.log
 
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.3.2-x86_64.rpm
 sudo rpm -vi filebeat-6.3.2-x86_64.rpm
