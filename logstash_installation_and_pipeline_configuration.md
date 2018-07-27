@@ -20,7 +20,7 @@ drwxrwxr-x.   2 root root    6 Mar 13 11:55 conf.d
 -rw-------.   1 root root 1659 Mar 13 11:55 startup.options
 
 cd /etc/logstash/conf.d
-wget https://github.com/smartrus/content-elastic-log-samples/blob/master/apache.conf
+wget https://github.com/smartrus/content-elastic-log-samples/raw/master/apache.conf
 
 systemctl start logstash
 systemctl status logstash
