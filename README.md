@@ -1,1 +1,2 @@
-# elastic_stack_poc
+# Elastic Stack POC
+Playing around with Elastic Stack cluster
